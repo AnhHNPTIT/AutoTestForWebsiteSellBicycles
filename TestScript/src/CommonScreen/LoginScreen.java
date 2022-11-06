@@ -31,7 +31,6 @@ public class LoginScreen {
 		if (!browser.isEmpty()) {
 			driver = Utilities.getDriver(browser);
 			driver.get(Constant.BASE_URL);
-//			Utilities.waitForElementClickable(driver, By.xpath(HomeScreen.loginLinkXpath), Constant.WAIT_CLICKABLE);
 			Utilities.clickObscuredElement(driver, HomeScreen.loginLinkXpath, LoginScreen.loginBtnXpath, Constant.WAIT_ELEMENT_EXIST);
 		}
 		return driver;

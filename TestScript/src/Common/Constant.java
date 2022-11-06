@@ -19,7 +19,7 @@ public final class Constant {
 	public static final int WAIT_NETWORK = 10;
 	public static final double WAIT_REFRESH_SCREEN = 2.0;
 	public static final int WAIT_CLICKABLE = 60;
-	public static final double WAIT_LOAD_SCREEN = 10.0;
+	public static final double WAIT_LOAD_SCREEN = 2.5;
 
 	// Define threshold
 	public static final double SIMILITY_THRESHOLD = 0.99;

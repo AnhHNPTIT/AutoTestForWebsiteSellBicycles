@@ -7,7 +7,7 @@
     <!--       <class name = "TestSuite.Login"/>  -->
     <!--         <class name = "TestSuite.Search"/>   -->
     <!--         <class name = "TestSuite.Contact"/>   -->
-   <class name = "TestSuite.Login"/>  
+   <class name = "TestSuite.Search"/>  
     </classes>
   </test> <!-- Test -->
  

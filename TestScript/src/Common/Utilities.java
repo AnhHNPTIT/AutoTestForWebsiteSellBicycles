@@ -1,6 +1,5 @@
 package Common;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -9,8 +8,8 @@ import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -18,7 +17,6 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -204,31 +202,7 @@ public class Utilities {
         new WebDriverWait(((WebDriver)driver), waitExist).until(ExpectedConditions.visibilityOfElementLocated(newLocator));
         assertElementVisible(driver, newLocator);
     }
-	
-	
-    /**
-     * Click one element and wait one element visible, if this element is not visible, click again
-     * @param driver: Web driver
-     * @param locator: xpath or id, class,..of GUI element which need to visible
-     * @param newLocator: Expected element will be displayed after click above element
-     * @param waitSecond: wait time
-     */
-    public static void clickObscuredElementManyTimes(WebDriver driver, By locator, By newLocator, double waitSecond) {
-    	 long startTime = System.currentTimeMillis();
-         long timeout = System.currentTimeMillis() - startTime;
-         waitForElementClickable(driver, locator, 1);
-         while (timeout < waitSecond * 1000) {
-             try {
-             	 driver.findElement(locator).click();
-                 new WebDriverWait(((WebDriver)driver), 3).until(ExpectedConditions.visibilityOfElementLocated(newLocator));
-                 break;
-             } catch(Exception e) {
-             }
-             timeout = System.currentTimeMillis() - startTime;
-         }
-         assertElementVisible(driver, newLocator);
-    }
-        
+	        
     /**
      * Click one element and wait one element visible, if this element is not visible, click again
      * @param driver: Web driver
@@ -239,8 +213,6 @@ public class Utilities {
     public static void clickObscuredElement(WebDriver driver, String elementXPath, String expectedElement, int timeInSecond) {
     	clickObscuredElement(driver, By.xpath(elementXPath), By.xpath(expectedElement), timeInSecond);
     }
-    
-   
     
     /**
      * Click one element and wait one expected element disappear
@@ -329,22 +301,6 @@ public class Utilities {
 			sendKeys(driver, locator, inputData);
 			assertInputValue(driver, locator, expectedValue);		
 		}
-	}
-	
-	// Input value into field then press Enter and validate
-	public static void inputValueAndValidateDate(WebDriver driver, By locator, String inputData, String expectedValue) {
-		clearInput(driver, locator);
-		sendKeys(driver, locator, inputData);
-//		WebElement element = driver.findElement(locator);
-//		element.sendKeys(Keys.ENTER);
-		assertInputValue(driver, locator, expectedValue);		
-	}
-		
-	// Input password to field and validate
-	public static void inputPasswordAndValidate(WebDriver driver, By locator, String inputData, String expectedValue) {
-		WebElement element = driver.findElement(locator);
-		inputValueAndValidate(driver, locator, inputData, expectedValue);	
-		Assert.assertEquals(element.getAttribute("type"), "password", "This field is not password type");
 	}
 	
 	// Click element
@@ -621,39 +577,13 @@ public class Utilities {
 		driver.get(driver.getCurrentUrl());
 //		Utilities.wait(Constant.WAIT_REFRESH_SCREEN);
 	}
-	
-	public static String getCurrentDate(String format) {
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern(format);
-		LocalDateTime now = LocalDateTime.now();  
-		return dtf.format(now);
-	}
-	
-	public static void selectComboBox(WebDriver driver, By locator, String selectedItem) {
-		if (selectedItem != "") {
-			WebElement element = driver.findElement(locator);
-			JavascriptExecutor js = (JavascriptExecutor) driver;
-			js.executeScript("arguments[0].scrollIntoView();", element);
-		    Utilities.click(driver, locator);
-			Utilities.inputValueAndValidate(driver, locator, selectedItem, selectedItem);
-			Utilities.wait(Constant.WAIT_INTERVAL);
-			element.sendKeys(Keys.DOWN);
-			element.sendKeys(Keys.ENTER);
+		
+	public static int getXpathCount(WebDriver driver, String locator) {
+		List<WebElement> listElements = driver.findElements(By.xpath(locator));
+		int count = 0;
+		for (WebElement element : listElements) {
+			count++;
 		}
+		return count;
 	}
-	
-    public static void refreshScreenManyTimes(WebDriver driver, String URL, By newLocator, double waitSecond) {
-   	 	long startTime = System.currentTimeMillis();
-        long timeout = System.currentTimeMillis() - startTime;
-        while (timeout < waitSecond * 1000) {
-            try {
-            	driver.get(URL);
-                new WebDriverWait(((WebDriver)driver), 2).until(ExpectedConditions.visibilityOfElementLocated(newLocator));
-                break;
-            } catch(Exception e) {
-            	driver.get(URL);
-            }
-            timeout = System.currentTimeMillis() - startTime;
-        }
-        assertElementVisible(driver, newLocator);
-   }
 }

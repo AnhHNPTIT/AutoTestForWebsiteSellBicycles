@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-04T00:53:09 ICT" name="Suite" finished-at="2022-11-04T00:53:49 ICT" duration-ms="40913">
+  <suite started-at="2022-11-07T00:55:11 ICT" name="Suite" finished-at="2022-11-07T00:55:41 ICT" duration-ms="30543">
     <groups>
     </groups>
-    <test started-at="2022-11-04T00:53:09 ICT" name="Test1" finished-at="2022-11-04T00:53:49 ICT" duration-ms="40913">
-      <class name="TestSuite.Login">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:08 ICT" name="beforeSuite" finished-at="2022-11-04T00:53:09 ICT" duration-ms="185" status="PASS">
+    <test started-at="2022-11-07T00:55:11 ICT" name="Test1" finished-at="2022-11-07T00:55:41 ICT" duration-ms="30543">
+      <class name="TestSuite.Search">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:10 ICT" name="beforeSuite" finished-at="2022-11-07T00:55:11 ICT" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:09 ICT" name="beforeClass" finished-at="2022-11-04T00:53:09 ICT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:11 ICT" name="beforeClass" finished-at="2022-11-07T00:55:11 ICT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,579 +22,250 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:09 ICT" name="setUpClass" finished-at="2022-11-04T00:53:13 ICT" duration-ms="4670" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:11 ICT" name="setUpClass" finished-at="2022-11-07T00:55:31 ICT" duration-ms="20550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:13 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:13 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:31 ICT" name="setUpMethod" finished-at="2022-11-07T00:55:31 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_01() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_01() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="MODULE1_01()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:13 ICT" name="MODULE1_01" finished-at="2022-11-04T00:53:16 ICT" duration-ms="2560" status="PASS">
+        <test-method signature="MODULE1_01()[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:31 ICT" name="MODULE1_01" finished-at="2022-11-07T00:55:33 ICT" duration-ms="1485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MODULE1_01 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:16 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:21 ICT" duration-ms="4795" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:33 ICT" name="tearDownMethod" finished-at="2022-11-07T00:55:33 ICT" duration-ms="160" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_01 status=SUCCESS method=Login.MODULE1_01()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_01 status=SUCCESS method=Search.MODULE1_01()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_01() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_01() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:21 ICT" name="afterMethod" finished-at="2022-11-04T00:53:21 ICT" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:33 ICT" name="afterMethod" finished-at="2022-11-07T00:55:33 ICT" duration-ms="137" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_01 status=SUCCESS method=Login.MODULE1_01()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_01 status=SUCCESS method=Search.MODULE1_01()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_01() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_01() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:21 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:21 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:33 ICT" name="setUpMethod" finished-at="2022-11-07T00:55:33 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_02() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_02() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="MODULE1_02()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:21 ICT" name="MODULE1_02" finished-at="2022-11-04T00:53:22 ICT" duration-ms="1010" status="PASS">
+        <test-method signature="MODULE1_02()[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:33 ICT" name="MODULE1_02" finished-at="2022-11-07T00:55:35 ICT" duration-ms="2286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MODULE1_02 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:22 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:22 ICT" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:35 ICT" name="tearDownMethod" finished-at="2022-11-07T00:55:35 ICT" duration-ms="136" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_02 status=SUCCESS method=Login.MODULE1_02()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_02 status=SUCCESS method=Search.MODULE1_02()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_02() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_02() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:22 ICT" name="afterMethod" finished-at="2022-11-04T00:53:22 ICT" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:35 ICT" name="afterMethod" finished-at="2022-11-07T00:55:36 ICT" duration-ms="132" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_02 status=SUCCESS method=Login.MODULE1_02()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_02 status=SUCCESS method=Search.MODULE1_02()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_02() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_02() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="MODULE1_03()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:22 ICT" name="MODULE1_03" finished-at="2022-11-04T00:53:25 ICT" duration-ms="2367" status="PASS">
+        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:36 ICT" name="setUpMethod" finished-at="2022-11-07T00:55:36 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestSuite.Search.MODULE1_03() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="MODULE1_03()[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:36 ICT" name="MODULE1_03" finished-at="2022-11-07T00:55:37 ICT" duration-ms="1262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MODULE1_03 -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:22 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:22 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:37 ICT" name="tearDownMethod" finished-at="2022-11-07T00:55:37 ICT" duration-ms="178" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_03() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:25 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:29 ICT" duration-ms="4529" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_03 status=SUCCESS method=Login.MODULE1_03()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_03 status=SUCCESS method=Search.MODULE1_03()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_03() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_03() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:29 ICT" name="afterMethod" finished-at="2022-11-04T00:53:30 ICT" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:37 ICT" name="afterMethod" finished-at="2022-11-07T00:55:37 ICT" duration-ms="153" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_03 status=SUCCESS method=Login.MODULE1_03()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_03 status=SUCCESS method=Search.MODULE1_03()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_03() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_03() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="MODULE1_04()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:30 ICT" name="MODULE1_04" finished-at="2022-11-04T00:53:31 ICT" duration-ms="1099" status="PASS">
+        <test-method signature="MODULE1_04()[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:37 ICT" name="MODULE1_04" finished-at="2022-11-07T00:55:38 ICT" duration-ms="1154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MODULE1_04 -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:30 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:30 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:37 ICT" name="setUpMethod" finished-at="2022-11-07T00:55:37 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_04() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_04() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:31 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:31 ICT" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:38 ICT" name="tearDownMethod" finished-at="2022-11-07T00:55:39 ICT" duration-ms="124" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_04 status=SUCCESS method=Login.MODULE1_04()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_04 status=SUCCESS method=Search.MODULE1_04()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_04() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_04() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:31 ICT" name="afterMethod" finished-at="2022-11-04T00:53:31 ICT" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:39 ICT" name="afterMethod" finished-at="2022-11-07T00:55:39 ICT" duration-ms="134" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_04 status=SUCCESS method=Login.MODULE1_04()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_04 status=SUCCESS method=Search.MODULE1_04()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_04() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_04() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:31 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:31 ICT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_05() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="MODULE1_05()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:31 ICT" name="MODULE1_05" finished-at="2022-11-04T00:53:34 ICT" duration-ms="2379" status="PASS">
+        <test-method signature="MODULE1_05()[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:39 ICT" name="MODULE1_05" finished-at="2022-11-07T00:55:40 ICT" duration-ms="1220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MODULE1_05 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:34 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:38 ICT" duration-ms="4379" status="PASS">
+        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:39 ICT" name="setUpMethod" finished-at="2022-11-07T00:55:39 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_05 status=SUCCESS method=Login.MODULE1_05()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_05() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:38 ICT" name="afterMethod" finished-at="2022-11-04T00:53:38 ICT" duration-ms="274" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_05 status=SUCCESS method=Login.MODULE1_05()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_05() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="MODULE1_06()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:38 ICT" name="MODULE1_06" finished-at="2022-11-04T00:53:39 ICT" duration-ms="937" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MODULE1_06 -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:38 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:38 ICT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_06() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_05() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:39 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:39 ICT" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:40 ICT" name="tearDownMethod" finished-at="2022-11-07T00:55:40 ICT" duration-ms="145" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_06 status=SUCCESS method=Login.MODULE1_06()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_05 status=SUCCESS method=Search.MODULE1_05()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_06() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_05() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:39 ICT" name="afterMethod" finished-at="2022-11-04T00:53:40 ICT" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:40 ICT" name="afterMethod" finished-at="2022-11-07T00:55:40 ICT" duration-ms="141" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MODULE1_06 status=SUCCESS method=Login.MODULE1_06()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
+                <![CDATA[[TestResult name=MODULE1_05 status=SUCCESS method=Search.MODULE1_05()[pri:0, instance:TestSuite.Search@80ec1f8] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_06() throws java.io.IOException]]>
+                <![CDATA[public void TestSuite.Search.MODULE1_05() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:40 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:40 ICT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_07() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="MODULE1_07()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:40 ICT" name="MODULE1_07" finished-at="2022-11-04T00:53:41 ICT" duration-ms="881" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MODULE1_07 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:41 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:41 ICT" duration-ms="257" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_07 status=SUCCESS method=Login.MODULE1_07()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_07() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:41 ICT" name="afterMethod" finished-at="2022-11-04T00:53:41 ICT" duration-ms="239" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_07 status=SUCCESS method=Login.MODULE1_07()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_07() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="MODULE1_08()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:41 ICT" name="MODULE1_08" finished-at="2022-11-04T00:53:42 ICT" duration-ms="820" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MODULE1_08 -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:41 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:41 ICT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_08() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:42 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:42 ICT" duration-ms="268" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_08 status=SUCCESS method=Login.MODULE1_08()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_08() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:42 ICT" name="afterMethod" finished-at="2022-11-04T00:53:42 ICT" duration-ms="266" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_08 status=SUCCESS method=Login.MODULE1_08()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_08() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="MODULE1_09()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:42 ICT" name="MODULE1_09" finished-at="2022-11-04T00:53:43 ICT" duration-ms="869" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MODULE1_09 -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:42 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:42 ICT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_09() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:43 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:44 ICT" duration-ms="268" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_09 status=SUCCESS method=Login.MODULE1_09()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_09() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:44 ICT" name="afterMethod" finished-at="2022-11-04T00:53:44 ICT" duration-ms="246" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_09 status=SUCCESS method=Login.MODULE1_09()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_09() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:44 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:44 ICT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_10() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="MODULE1_10()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:44 ICT" name="MODULE1_10" finished-at="2022-11-04T00:53:45 ICT" duration-ms="1005" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MODULE1_10 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:45 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:45 ICT" duration-ms="230" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_10 status=SUCCESS method=Login.MODULE1_10()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_10() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:45 ICT" name="afterMethod" finished-at="2022-11-04T00:53:45 ICT" duration-ms="237" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_10 status=SUCCESS method=Login.MODULE1_10()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_10() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:45 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:45 ICT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_11() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="MODULE1_11()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:45 ICT" name="MODULE1_11" finished-at="2022-11-04T00:53:46 ICT" duration-ms="1042" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MODULE1_11 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:46 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:47 ICT" duration-ms="246" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_11 status=SUCCESS method=Login.MODULE1_11()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_11() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:47 ICT" name="afterMethod" finished-at="2022-11-04T00:53:47 ICT" duration-ms="242" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_11 status=SUCCESS method=Login.MODULE1_11()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_11() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:47 ICT" name="setUpMethod" finished-at="2022-11-04T00:53:47 ICT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_12() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="MODULE1_12()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:47 ICT" name="MODULE1_12" finished-at="2022-11-04T00:53:48 ICT" duration-ms="1090" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MODULE1_12 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:48 ICT" name="tearDownMethod" finished-at="2022-11-04T00:53:48 ICT" duration-ms="268" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_12 status=SUCCESS method=Login.MODULE1_12()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_12() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:48 ICT" name="afterMethod" finished-at="2022-11-04T00:53:48 ICT" duration-ms="239" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MODULE1_12 status=SUCCESS method=Login.MODULE1_12()[pri:0, instance:TestSuite.Login@71248c21] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestSuite.Login.MODULE1_12() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestSuite.Login@71248c21]" started-at="2022-11-04T00:53:48 ICT" name="tearDownClass" finished-at="2022-11-04T00:53:49 ICT" duration-ms="1076" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestSuite.Search@80ec1f8]" started-at="2022-11-07T00:55:40 ICT" name="tearDownClass" finished-at="2022-11-07T00:55:41 ICT" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- TestSuite.Login -->
+      </class> <!-- TestSuite.Search -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
