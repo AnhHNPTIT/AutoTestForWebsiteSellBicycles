@@ -16,6 +16,17 @@ public class HomeScreen {
 	public static String titleSearchLbXpath 		= "//h1[contains(text(),'#KEYWORD')]";
 	public static String searchResultDivXpath 		= "//*[@class='products-item-content']";
 	
+	public static String msgOnDlgXpath 				= "//div[contains(@class,'swal-text')]";
+	public static String emailTxtID 				= "email-input";
+	public static String registerBtnXpath 			= "//button[contains(text(),'Đăng ký')]";
+	public static String registerSuccessMsg 		= "Cảm ơn bạn đã đăng ký nhận thông báo";
+	public static String invalidEmailMsg 			= "Email không đúng định dạng!";
+	public static String emptyEmailMsg 				= "Vui lòng nhập email của bạn";
+	
+	public static String dropdownMenuBtnID 			= "dropdownMenuButton";
+	public static String accountMntLinkXpath 		= "//header/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/a[1]";
+	public static String changePasswordLinkXpath 	= "//h2[contains(text(),'Đổi mật khẩu')]";
+	
 	public static WebDriver openScreen(String browser) {
 		WebDriver driver = null;
 		if (!browser.isEmpty()) {
@@ -39,5 +50,16 @@ public class HomeScreen {
 		else {
 			Utilities.assertString("0",Integer.toString(countSearchResult));
 		}
+	}
+	
+	public static void register(WebDriver driver, String email, String expectErrMsg) {
+		if (email.lastIndexOf(" ") != email.length() - 1) {
+			Utilities.inputValueAndValidate(driver, By.id(emailTxtID), email, email);
+		}
+		else {
+			Utilities.inputValueAndValidate(driver, By.id(emailTxtID), email, email.replace(" ", ""));
+		}
+		Utilities.clickObscuredElement(driver, registerBtnXpath, msgOnDlgXpath, Constant.WAIT_ELEMENT_EXIST);
+		Utilities.assertTextValueVisible(driver, By.xpath(msgOnDlgXpath), expectErrMsg);
 	}
 }

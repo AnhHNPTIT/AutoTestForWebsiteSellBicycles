@@ -586,4 +586,22 @@ public class Utilities {
 		}
 		return count;
 	}
+	
+	public static void assertMsgOnAlert(WebDriver driver, String expectedMsg) {
+		String actualMsg = "";
+		long startTime = System.currentTimeMillis();
+        long timeout = System.currentTimeMillis() - startTime;
+        while (timeout < Constant.WAIT_WINDOW * 1000) {
+            try {
+            	actualMsg = driver.switchTo().alert().getText();
+                if (actualMsg != "") {
+                	break;
+                }
+            } catch(Exception e) {
+            	printWithTestID(e.getMessage(), Level.ERROR);
+            }
+            timeout = System.currentTimeMillis() - startTime;
+        }
+		assertString(driver, expectedMsg, actualMsg);
+	}
 }

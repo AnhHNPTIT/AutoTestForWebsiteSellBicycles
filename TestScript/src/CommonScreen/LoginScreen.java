@@ -31,34 +31,38 @@ public class LoginScreen {
 		if (!browser.isEmpty()) {
 			driver = Utilities.getDriver(browser);
 			driver.get(Constant.BASE_URL);
-			Utilities.clickObscuredElement(driver, HomeScreen.loginLinkXpath, LoginScreen.loginBtnXpath, Constant.WAIT_ELEMENT_EXIST);
+			Utilities.clickObscuredElement(driver, HomeScreen.loginLinkXpath, loginBtnXpath, Constant.WAIT_ELEMENT_EXIST);
 		}
 		return driver;
 	}
 	
 	public static void login(WebDriver driver, String phone, String password, String expectErrMsg) {
-		Utilities.waitForElementVisibility(driver, By.id(LoginScreen.phoneTxtID));
+		Utilities.waitForElementVisibility(driver, By.id(phoneTxtID));
 		if (phone == "(@#$%^*~/\\,|)." || phone == "abcdefghij") {
-			Utilities.inputValueAndValidate(driver, By.id(LoginScreen.phoneTxtID), phone, "");
+			Utilities.inputValueAndValidate(driver, By.id(phoneTxtID), phone, "");
 		}
 		else {
-			Utilities.inputValueAndValidate(driver, By.id(LoginScreen.phoneTxtID), phone, phone.replace(" ", ""));
+			Utilities.inputValueAndValidate(driver, By.id(phoneTxtID), phone, phone.replace(" ", ""));
 		}
-		Utilities.inputValueAndValidate(driver, By.id(LoginScreen.passwordTxtID), password, password);
+		Utilities.inputValueAndValidate(driver, By.id(passwordTxtID), password, password);
 		if (expectErrMsg == "") {
-			Utilities.clickObscuredElement(driver, By.xpath(LoginScreen.loginBtnXpath), By.xpath(HomeScreen.usernameLinkXpath), Constant.WAIT_ELEMENT_EXIST*3);
+			Utilities.clickObscuredElement(driver, By.xpath(loginBtnXpath), By.xpath(HomeScreen.usernameLinkXpath), 
+					Constant.WAIT_ELEMENT_EXIST*3);
 		}
 		else if (password == "") {
-			Utilities.clickObscuredElement(driver, By.xpath(LoginScreen.loginBtnXpath), By.xpath(LoginScreen.passwordErrMsgXpath), Constant.WAIT_ELEMENT_EXIST*3);
-			Utilities.assertTextValue(driver, By.xpath(LoginScreen.passwordErrMsgXpath), expectErrMsg);		
+			Utilities.clickObscuredElement(driver, By.xpath(loginBtnXpath), By.xpath(passwordErrMsgXpath), 
+					Constant.WAIT_ELEMENT_EXIST*3);
+			Utilities.assertTextValue(driver, By.xpath(passwordErrMsgXpath), expectErrMsg);		
 		}
-		else if (expectErrMsg == LoginScreen.emptyPhoneMsg || expectErrMsg == LoginScreen.invalidPhoneMsg) {
-			Utilities.clickObscuredElement(driver, By.xpath(LoginScreen.loginBtnXpath), By.xpath(LoginScreen.phoneErrMsgXpath), Constant.WAIT_ELEMENT_EXIST*3);
-			Utilities.assertTextValue(driver, By.xpath(LoginScreen.phoneErrMsgXpath), expectErrMsg);
+		else if (expectErrMsg == emptyPhoneMsg || expectErrMsg == invalidPhoneMsg) {
+			Utilities.clickObscuredElement(driver, By.xpath(loginBtnXpath), By.xpath(phoneErrMsgXpath), 
+					Constant.WAIT_ELEMENT_EXIST*3);
+			Utilities.assertTextValue(driver, By.xpath(phoneErrMsgXpath), expectErrMsg);
 		}
 		else {
-			Utilities.clickObscuredElement(driver, By.xpath(LoginScreen.loginBtnXpath), By.xpath(LoginScreen.errorMsgXpath), Constant.WAIT_ELEMENT_EXIST*3);
-			Utilities.assertTextValue(driver, By.xpath(LoginScreen.errorMsgXpath), expectErrMsg);
+			Utilities.clickObscuredElement(driver, By.xpath(loginBtnXpath), By.xpath(errorMsgXpath), 
+					Constant.WAIT_ELEMENT_EXIST*3);
+			Utilities.assertTextValue(driver, By.xpath(errorMsgXpath), expectErrMsg);
 		}
 	}	
 }

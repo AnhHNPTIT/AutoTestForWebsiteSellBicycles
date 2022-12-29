@@ -4,18 +4,21 @@
   <test thread-count="5" name="Test1(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="TestSuite.Contact">
+      <class name="TestSuite.Register">
         <methods>
+          <include name="MODULE4_08"/>
           <include name="beforeSuite"/>
+          <include name="MODULE4_01"/>
           <include name="setUpClass"/>
-          <include name="MODULE1_15"/>
           <include name="afterMethod"/>
-          <include name="setUpMethod"/>
-          <include name="tearDownMethod"/>
-          <include name="beforeClass"/>
+          <include name="MODULE4_02"/>
+          <include name="MODULE4_03"/>
           <include name="tearDownClass"/>
+          <include name="beforeClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
         </methods>
-      </class> <!-- TestSuite.Contact -->
+      </class> <!-- TestSuite.Register -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

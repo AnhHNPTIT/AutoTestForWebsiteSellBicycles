@@ -7,7 +7,9 @@
     <!--       <class name = "TestSuite.Login"/>  -->
     <!--         <class name = "TestSuite.Search"/>   -->
     <!--         <class name = "TestSuite.Contact"/>   -->
-   <class name = "TestSuite.Contact"/>  
+    <!--         <class name = "TestSuite.Register"/>   -->
+    <!--         <class name = "TestSuite.ChangePassword"/>   -->
+   <class name = "TestSuite.Register"/>  
     </classes>
   </test> <!-- Test -->
  
