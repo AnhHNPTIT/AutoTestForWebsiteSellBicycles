@@ -27,83 +27,83 @@ public class Contact extends Initialization{
 	}
 		
 	@Test()
-	public void MODULE1_01() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_01", "0978478178", "test@gmail.com", "test", "");
+	public void MODULE3_01() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_01", "0978478178", "test@gmail.com", "test", "");
 	}	
 
 	@Test()
-	public void MODULE1_02() throws IOException{
+	public void MODULE3_02() throws IOException{
 		ContactScreen.contact(driver, "", "0978478178", "test@gmail.com", "test", ContactScreen.emptyNameMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_03() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_03", "", "test@gmail.com", "test", ContactScreen.emptyPhoneMsg);
+	public void MODULE3_03() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_03", "", "test@gmail.com", "test", ContactScreen.emptyPhoneMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_04() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_04", "0978478178", "test@gmail.com", "test", "");
+	public void MODULE3_04() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_04", "0978478178", "test@gmail.com", "test", "");
 	}	
 
 	@Test()
-	public void MODULE1_05() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_05", "01234567890", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
+	public void MODULE3_05() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_05", "01234567890", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_06() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_06", "0978 478 178", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
+	public void MODULE3_06() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_06", "0978 478 178", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_07() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_07", "(@#$%^*~/\\,|).", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
+	public void MODULE3_07() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_07", "(@#$%^*~/\\,|).", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_08() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_08", "0000000000", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
+	public void MODULE3_08() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_08", "0000000000", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_09() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_09", "abcdefghij", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
+	public void MODULE3_09() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_09", "abcdefghij", "test@gmail.com", "test", ContactScreen.invalidPhoneMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_10() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_10", "0978478178", "", "test", "");
+	public void MODULE3_10() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_10", "0978478178", "", "test", "");
 	}	
 	
 	@Test()
-	public void MODULE1_11() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_11", "0978478178", "(@#$%^*~/\\,|).", "test", ContactScreen.invalidEmailMsg);
+	public void MODULE3_11() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_11", "0978478178", "(@#$%^*~/\\,|).", "test", ContactScreen.invalidEmailMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_12() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_12", "0978478178", "testgmail.com", "test", ContactScreen.invalidEmailMsg);
+	public void MODULE3_12() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_12", "0978478178", "testgmail.com", "test", ContactScreen.invalidEmailMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_13() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_13", "0978478178", "test@gmailcom", "test", ContactScreen.invalidEmailMsg);
+	public void MODULE3_13() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_13", "0978478178", "test@gmailcom", "test", ContactScreen.invalidEmailMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_14() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_14", "0978478178", "te st@gmail.com", "test", ContactScreen.invalidEmailMsg);
+	public void MODULE3_14() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_14", "0978478178", "te st@gmail.com", "test", ContactScreen.invalidEmailMsg);
 	}	
 	
 	@Test()
-	public void MODULE1_15() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_15", "0978478178", " test@gmail.com ", "test", "");
+	public void MODULE3_15() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_15", "0978478178", " test@gmail.com ", "test", "");
 	}	
 	
 	@Test()
-	public void MODULE1_16() throws IOException{
-		ContactScreen.contact(driver, "MODULE1_16", "0978478178", "test@gmail.com", "", ContactScreen.emptyContentMsg);
+	public void MODULE3_16() throws IOException{
+		ContactScreen.contact(driver, "MODULE3_16", "0978478178", "test@gmail.com", "", ContactScreen.emptyContentMsg);
 	}	
 		
 	@AfterMethod()  

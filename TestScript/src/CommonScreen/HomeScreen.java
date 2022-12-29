@@ -27,6 +27,14 @@ public class HomeScreen {
 	public static String accountMntLinkXpath 		= "//header/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/a[1]";
 	public static String changePasswordLinkXpath 	= "//h2[contains(text(),'Đổi mật khẩu')]";
 	
+	
+	public static String categoryProductLinkXpath 	= "//div[contains(@class,'category-products-item')][INDEX]";
+	public static String productLinkXpath 			= "//body/div[4]/div[3]/div[2]/div[2]/div[INDEX]/div[1]";
+	public static String addToCartBtnXpath 			= "//body/div[4]/div[1]/div[2]/div[2]/div[5]/button[1]";
+	public static String orderNowBtnXpath 			= "//button[contains(text(),'Mua ngay')]";
+	public static String orderBtnXpath 				= "//button[contains(text(),'Đặt hàng')]";
+	public static String quantityProductLbXpath 	= "//span[contains(@class,'bag-amount')]";
+	
 	public static WebDriver openScreen(String browser) {
 		WebDriver driver = null;
 		if (!browser.isEmpty()) {

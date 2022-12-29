@@ -14,7 +14,6 @@ import Common.Constant;
 import Common.Initialization;
 import Common.Utilities;
 import CommonScreen.ChangePasswordScreen;
-import CommonScreen.HomeScreen;
 
 
 public class ChangePassword extends Initialization{	
@@ -30,7 +29,8 @@ public class ChangePassword extends Initialization{
 		
 	@Test()
 	public void MODULE6_01() throws IOException{
-		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, ChangePasswordScreen.changePasswordSuccessMsg);
+		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, "12345678901234567890", "12345678901234567890", ChangePasswordScreen.changePasswordSuccessMsg);
+		ChangePasswordScreen.changePassword(driver, "12345678901234567890", Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, ChangePasswordScreen.changePasswordSuccessMsg);
 	}	
 
 	@Test()
@@ -80,12 +80,13 @@ public class ChangePassword extends Initialization{
 	
 	@Test()
 	public void MODULE6_11() throws IOException{
-		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, "1234567", Constant.BASE_PASSWORD, ChangePasswordScreen.invalidPasswordMsg);
+		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, "1234567", "1234567", ChangePasswordScreen.invalidPasswordMsg);
 	}	
 	
 	@Test()
 	public void MODULE6_12() throws IOException{
-		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, ChangePasswordScreen.changePasswordSuccessMsg);
+		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, "87654321", "87654321", ChangePasswordScreen.changePasswordSuccessMsg);
+		ChangePasswordScreen.changePassword(driver, "87654321", Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, ChangePasswordScreen.changePasswordSuccessMsg);
 	}	
 		
 	@Test()
@@ -96,30 +97,9 @@ public class ChangePassword extends Initialization{
 	
 	@Test()
 	public void MODULE6_14() throws IOException{
-		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, "123456789012345678901", "12345678901234567890", ChangePasswordScreen.invalidPasswordMsg);
+		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, "123456789012345678901", "123456789012345678902", ChangePasswordScreen.invalidPasswordMsg);
 	}
-	
-	@Test()
-	public void MODULE6_15() throws IOException{
-		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, "1234567", ChangePasswordScreen.invalidPasswordMsg);
-	}	
-	
-	@Test()
-	public void MODULE6_16() throws IOException{
-		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, ChangePasswordScreen.changePasswordSuccessMsg);
-	}	
 		
-	@Test()
-	public void MODULE6_17() throws IOException{
-		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, "12345678901234567890", "12345678901234567890", ChangePasswordScreen.changePasswordSuccessMsg);
-		ChangePasswordScreen.changePassword(driver, "12345678901234567890", Constant.BASE_PASSWORD, Constant.BASE_PASSWORD, ChangePasswordScreen.changePasswordSuccessMsg);
-	}
-	
-	@Test()
-	public void MODULE6_18() throws IOException{
-		ChangePasswordScreen.changePassword(driver, Constant.BASE_PASSWORD, "12345678901234567890", "123456789012345678901", ChangePasswordScreen.invalidPasswordMsg);
-	}
-	
 	@AfterMethod()  
 	public void tearDownMethod(ITestResult result, Method method){
 		afterMethod(result, method);

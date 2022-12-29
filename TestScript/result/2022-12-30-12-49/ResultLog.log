@@ -1,0 +1,117 @@
+2022-12-30 00:49:25 ERROR Utilities:75 - [TestID:MODULE5_02]org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'new-products-item-content')][1] (tried for 2 second(s) with 500 milliseconds interval)
+2022-12-30 00:49:26 ERROR Utilities:75 - [TestID:MODULE5_02]org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'new-products-item-content')][1]"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+*** Element info: {Using=xpath, value=//div[contains(@class,'new-products-item-content')][1]}
+2022-12-30 00:49:27 ERROR Utilities:75 - [TestID:MODULE5_02]org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'new-products-item-content')][1]"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+*** Element info: {Using=xpath, value=//div[contains(@class,'new-products-item-content')][1]}
+2022-12-30 00:49:31 ERROR Utilities:75 - [TestID:MODULE5_03]org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'new-products-item-content')][2] (tried for 2 second(s) with 500 milliseconds interval)
+2022-12-30 00:49:32 ERROR Utilities:75 - [TestID:MODULE5_03]org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'new-products-item-content')][2]"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+*** Element info: {Using=xpath, value=//div[contains(@class,'new-products-item-content')][2]}
+2022-12-30 00:49:33 ERROR Utilities:75 - [TestID:MODULE5_03]org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'new-products-item-content')][2]"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+*** Element info: {Using=xpath, value=//div[contains(@class,'new-products-item-content')][2]}
+2022-12-30 00:49:35 ERROR Utilities:75 - [TestID:MODULE5_03]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button product-id="28" class="add-to-card-btn add-item-to-card-func">...</button> is not clickable at point (873, 547). Other element would receive the click: <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">...</div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+2022-12-30 00:49:36 ERROR Utilities:75 - [TestID:MODULE5_03]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button product-id="28" class="add-to-card-btn add-item-to-card-func">...</button> is not clickable at point (873, 547). Other element would receive the click: <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">...</div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+2022-12-30 00:49:37 ERROR Utilities:75 - [TestID:MODULE5_03]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button product-id="28" class="add-to-card-btn add-item-to-card-func">...</button> is not clickable at point (873, 547). Other element would receive the click: <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">...</div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+2022-12-30 00:49:38 ERROR Utilities:75 - [TestID:MODULE5_03]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button product-id="28" class="add-to-card-btn add-item-to-card-func">...</button> is not clickable at point (873, 547). Other element would receive the click: <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">...</div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+2022-12-30 00:49:38 ERROR Utilities:75 - [TestID:MODULE5_03][TestResult name=MODULE5_03 status=FAILURE method=DetailInformation.MODULE5_03()[pri:0, instance:TestSuite.DetailInformation@7586beff] output={null}]
+2022-12-30 00:49:38 ERROR Utilities:75 - [TestID:MODULE5_03][TestResult name=MODULE5_03 status=FAILURE method=DetailInformation.MODULE5_03()[pri:0, instance:TestSuite.DetailInformation@7586beff] output={null}]
+2022-12-30 00:49:41 ERROR Utilities:75 - [TestID:MODULE5_04]org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'new-products-item-content')][2] (tried for 2 second(s) with 500 milliseconds interval)
+2022-12-30 00:49:42 ERROR Utilities:75 - [TestID:MODULE5_04]org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'new-products-item-content')][2]"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+*** Element info: {Using=xpath, value=//div[contains(@class,'new-products-item-content')][2]}
+2022-12-30 00:49:43 ERROR Utilities:75 - [TestID:MODULE5_04]org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'new-products-item-content')][2]"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+*** Element info: {Using=xpath, value=//div[contains(@class,'new-products-item-content')][2]}
+2022-12-30 00:49:45 ERROR Utilities:75 - [TestID:MODULE5_04]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button product-id="28" class="add-to-card-btn add-item-to-card-func">...</button> is not clickable at point (873, 547). Other element would receive the click: <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">...</div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+2022-12-30 00:49:46 ERROR Utilities:75 - [TestID:MODULE5_04]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button product-id="28" class="add-to-card-btn add-item-to-card-func">...</button> is not clickable at point (873, 547). Other element would receive the click: <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">...</div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+2022-12-30 00:49:47 ERROR Utilities:75 - [TestID:MODULE5_04]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button product-id="28" class="add-to-card-btn add-item-to-card-func">...</button> is not clickable at point (873, 547). Other element would receive the click: <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">...</div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+2022-12-30 00:49:48 ERROR Utilities:75 - [TestID:MODULE5_04]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button product-id="28" class="add-to-card-btn add-item-to-card-func">...</button> is not clickable at point (873, 547). Other element would receive the click: <div class="swal-overlay swal-overlay--show-modal" tabindex="-1">...</div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.UwduJ8}, goog:chromeOptions: {debuggerAddress: localhost:40789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b19bc132207e9c75a3ca53e5118de6d
+2022-12-30 00:49:48 ERROR Utilities:75 - [TestID:MODULE5_04][TestResult name=MODULE5_04 status=FAILURE method=DetailInformation.MODULE5_04()[pri:0, instance:TestSuite.DetailInformation@7586beff] output={null}]
+2022-12-30 00:49:48 ERROR Utilities:75 - [TestID:MODULE5_04][TestResult name=MODULE5_04 status=FAILURE method=DetailInformation.MODULE5_04()[pri:0, instance:TestSuite.DetailInformation@7586beff] output={null}]

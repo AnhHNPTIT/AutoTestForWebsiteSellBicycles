@@ -27,27 +27,27 @@ public class Search extends Initialization{
 	}
 		
 	@Test()
-	public void MODULE1_01() throws IOException{
+	public void MODULE2_01() throws IOException{
 		HomeScreen.search(driver, "Xe đạp địa hình MTB Giant LIV TEMPT 3 29 inch Size M", true);
 	}	
 
 	@Test()
-	public void MODULE1_02() throws IOException{
+	public void MODULE2_02() throws IOException{
 		HomeScreen.search(driver, "demo test", false);
 	}	
 	
 	@Test()
-	public void MODULE1_03() throws IOException{
+	public void MODULE2_03() throws IOException{
 		HomeScreen.search(driver, "xe đạp thể thao", true);
 	}	
 	
 	@Test()
-	public void MODULE1_04() throws IOException{
+	public void MODULE2_04() throws IOException{
 		HomeScreen.search(driver, "Xe đạp đua Sava Pro 6.0", true);
 	}	
 
 	@Test()
-	public void MODULE1_05() throws IOException{
+	public void MODULE2_05() throws IOException{
 		HomeScreen.search(driver, "XE ĐẠP ĐUA SAVA PRO 6.0", true);
 	}	
 		

@@ -1,0 +1,8 @@
+2022-12-29 21:29:57 ERROR Utilities:75 - [TestID:MODULE4_01][TestResult name=MODULE4_01 status=FAILURE method=Register.MODULE4_01()[pri:0, instance:TestSuite.Register@7e6f74c] output={null}]
+2022-12-29 21:29:58 ERROR Utilities:75 - [TestID:MODULE4_01][TestResult name=MODULE4_01 status=FAILURE method=Register.MODULE4_01()[pri:0, instance:TestSuite.Register@7e6f74c] output={null}]
+2022-12-29 21:29:59 ERROR Utilities:75 - [TestID:MODULE4_02][TestResult name=MODULE4_02 status=FAILURE method=Register.MODULE4_02()[pri:0, instance:TestSuite.Register@7e6f74c] output={null}]
+2022-12-29 21:30:01 ERROR Utilities:75 - [TestID:MODULE4_02][TestResult name=MODULE4_02 status=FAILURE method=Register.MODULE4_02()[pri:0, instance:TestSuite.Register@7e6f74c] output={null}]
+2022-12-29 21:30:02 ERROR Utilities:75 - [TestID:MODULE4_03][TestResult name=MODULE4_03 status=FAILURE method=Register.MODULE4_03()[pri:0, instance:TestSuite.Register@7e6f74c] output={null}]
+2022-12-29 21:30:03 ERROR Utilities:75 - [TestID:MODULE4_03][TestResult name=MODULE4_03 status=FAILURE method=Register.MODULE4_03()[pri:0, instance:TestSuite.Register@7e6f74c] output={null}]
+2022-12-29 21:30:14 ERROR Utilities:75 - [TestID:MODULE4_08][TestResult name=MODULE4_08 status=FAILURE method=Register.MODULE4_08()[pri:0, instance:TestSuite.Register@7e6f74c] output={null}]
+2022-12-29 21:30:15 ERROR Utilities:75 - [TestID:MODULE4_08][TestResult name=MODULE4_08 status=FAILURE method=Register.MODULE4_08()[pri:0, instance:TestSuite.Register@7e6f74c] output={null}]
