@@ -1,3 +1,0 @@
-2022-12-30 00:26:17 ERROR Utilities:75 - [TestID:MODULE7_05]org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'error-message')][3]//p (tried for 5 second(s) with 500 milliseconds interval)
-2022-12-30 00:26:17 ERROR Utilities:75 - [TestID:MODULE7_05][TestResult name=MODULE7_05 status=FAILURE method=UpdateAccount.MODULE7_05()[pri:0, instance:TestSuite.UpdateAccount@1f2586d6] output={null}]
-2022-12-30 00:26:17 ERROR Utilities:75 - [TestID:MODULE7_05][TestResult name=MODULE7_05 status=FAILURE method=UpdateAccount.MODULE7_05()[pri:0, instance:TestSuite.UpdateAccount@1f2586d6] output={null}]

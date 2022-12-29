@@ -1,2 +1,0 @@
-2022-11-07 01:03:07 ERROR Utilities:75 - [TestID:MODULE1_15][TestResult name=MODULE1_15 status=FAILURE method=Contact.MODULE1_15()[pri:0, instance:TestSuite.Contact@1c72da34] output={null}]
-2022-11-07 01:03:08 ERROR Utilities:75 - [TestID:MODULE1_15][TestResult name=MODULE1_15 status=FAILURE method=Contact.MODULE1_15()[pri:0, instance:TestSuite.Contact@1c72da34] output={null}]

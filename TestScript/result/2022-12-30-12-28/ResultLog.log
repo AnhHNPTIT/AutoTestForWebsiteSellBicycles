@@ -1,8 +1,0 @@
-2022-12-30 00:29:00 ERROR Utilities:75 - [TestID:MODULE7_02]org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'swal-text')] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'hoang-ngoc-anh', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.HVbiPl}, goog:chromeOptions: {debuggerAddress: localhost:43485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bab265d6f3a3603bc414cd504aad1d7
-2022-12-30 00:29:00 ERROR Utilities:75 - [TestID:MODULE7_02][TestResult name=MODULE7_02 status=FAILURE method=UpdateAccount.MODULE7_02()[pri:0, instance:TestSuite.UpdateAccount@1f2586d6] output={null}]
-2022-12-30 00:29:01 ERROR Utilities:75 - [TestID:MODULE7_02][TestResult name=MODULE7_02 status=FAILURE method=UpdateAccount.MODULE7_02()[pri:0, instance:TestSuite.UpdateAccount@1f2586d6] output={null}]
